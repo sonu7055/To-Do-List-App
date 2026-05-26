@@ -7,7 +7,8 @@
 }
 
 body {
-  background: linear-gradient(135deg, #66ea6d, #514ba2);
+  background: linear-gradient(135deg,rgba(211, 211, 211, 0.5), #948585, #514ba2);
+  /* background-color: rgba(211, 211, 211, 0.5); */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,14 +21,14 @@ body {
 /* Title and Subtitle */
 h1 {
   font-size: 2.5rem;
-  color: #fff;
+  color: rgb(247, 247, 114);
   margin-bottom: 10px;
   letter-spacing: 1px;
   text-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
-p {
-  color: #830f6a;
+h4 {
+  color: rgb(133, 54, 54);
   margin-bottom: 25px;
   font-size: 1rem;
 }
